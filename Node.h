@@ -28,15 +28,15 @@ public:
         delete this;
     }
 
-    void reverseF(Node<T>* node){
+    void reverseSingle(Node<T>* node){
         if(next->next!=node)
-            next->reverseF(node);
+            next->reverseSingle(node);
         next->next=this;
     }
 
-    void reverseL(Node<T>* node){
+    void reverseDoubleAndCircular(Node<T>* node){
         if(next!=node){
-            next->reverseL(node);
+            next->reverseDoubleAndCircular(node);
         }
         swap(prev,next);
     }

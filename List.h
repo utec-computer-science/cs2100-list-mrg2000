@@ -26,9 +26,17 @@ public:
         }
     }
 
-    List(T*){
+    List(T* array[], int size){
         //Constructor  parametro,
         //llena una lista a partir de un array
+        auto *temp = new Node<T>;
+        for(int i=0;i<size;i++){
+            temp->value = array[i];
+            temp->next = this->head;
+            this->head = temp;
+            nodes++;
+        }
+
     }
 
     List(Node<T>* node){
@@ -108,7 +116,26 @@ public:
     //virtual void insert(Node<T>*, const T&) = 0;
 
     // Elimina todos los elementos por similitud
-    //virtual void remove(const T&) = 0;
+    void remove(const T& value){
+        auto node = new Node<T>;
+        auto nodeNext = new Node<T>;
+        auto nodePrev = new Node<T>;
+        node = this->head;
+        for(int i=0;i<nodes;i++){
+            if(i == 0 && node->value == value)
+                pop_front();
+            if(i== nodes-1 && node->value == value)
+                pop_back();
+            if(node->value == value && i != 0 && i != nodes-1){
+                nodeNext = node->next;
+                node->prev->next = nodeNext;
+                node->killSelf(node);
+            }
+
+            node = nodeNext;
+
+        }
+    };
 
     // ordena la lista
     //virtual void sort() = 0;

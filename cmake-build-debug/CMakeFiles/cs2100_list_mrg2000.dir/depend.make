@@ -3,7 +3,9 @@
 
 CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o: ../List.h
 CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o: ../Node.h
+CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o: ../circular.hpp
 CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o: ../double.hpp
+CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o: ../doubleCircular.hpp
 CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o: ../iterator.h
 CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o: ../iterator_simple.h
 CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o: ../main.cpp

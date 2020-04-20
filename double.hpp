@@ -96,7 +96,7 @@ namespace mrg {
 
         void reverse(){
             if(this->nodes){
-                this->head->reverseL(nullptr);
+                this->head->reverseDoubleAndCircular(nullptr);
                 swap(this->head,this->tail);
             }
         };

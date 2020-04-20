@@ -86,7 +86,13 @@
 		<Unit filename="/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/Node.h">
 			<Option target="cs2100_list_mrg2000"/>
 		</Unit>
+		<Unit filename="/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/circular.hpp">
+			<Option target="cs2100_list_mrg2000"/>
+		</Unit>
 		<Unit filename="/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/double.hpp">
+			<Option target="cs2100_list_mrg2000"/>
+		</Unit>
+		<Unit filename="/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/doubleCircular.hpp">
 			<Option target="cs2100_list_mrg2000"/>
 		</Unit>
 		<Unit filename="/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/main.cpp">
