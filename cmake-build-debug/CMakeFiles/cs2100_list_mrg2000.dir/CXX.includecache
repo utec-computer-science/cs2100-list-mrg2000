@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/List.h
+iostream
+-
+Node.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/Node.h
+
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/Node.h
+iostream
+-
+
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/double.hpp
+iostream
+-
+iterator_simple.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator_simple.h
+List.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/List.h
+
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator.h
+Node.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/Node.h
+
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator_simple.h
+iostream
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iostream
+Node.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/Node.h
+iterator.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator.h
+
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/main.cpp
+iostream
+-
+single.hpp
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/single.hpp
+double.hpp
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/double.hpp
+
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/single.hpp
+iostream
+-
+List.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/List.h
+iterator_simple.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator_simple.h
+
