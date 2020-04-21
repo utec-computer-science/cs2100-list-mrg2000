@@ -1,5 +1,5 @@
 #include <iostream>
-#include "iterator_simple.h"
+#include "forwardIterator.h"
 #include "List.h"
 
 using namespace std;
@@ -105,12 +105,12 @@ namespace mrg {
 
 
         //Iteradores
-        simpleIterator<T> begin() {
-            return simpleIterator<T> (this->head);
+        forwardIterator<T> begin() {
+            return forwardIterator<T> (this->head);
         }
 
-        simpleIterator<T> end() {
-            return simpleIterator<T> (this->tail->next);
+        forwardIterator<T> end() {
+            return forwardIterator<T> (this->tail->next);
         }
 
 

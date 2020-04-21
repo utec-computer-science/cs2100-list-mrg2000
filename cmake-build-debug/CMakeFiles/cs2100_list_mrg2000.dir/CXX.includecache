@@ -21,14 +21,14 @@ iostream
 -
 List.h
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/List.h
-iterator_simple.h
-/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator_simple.h
+forwardIterator.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/forwardIterator.h
 
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/double.hpp
 iostream
 -
-iterator_simple.h
-/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator_simple.h
+forwardIterator.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/forwardIterator.h
 List.h
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/List.h
 
@@ -37,20 +37,20 @@ iostream
 -
 List.h
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/List.h
-iterator_simple.h
-/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator_simple.h
+forwardIterator.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/forwardIterator.h
 
-/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator.h
-Node.h
-/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/Node.h
-
-/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator_simple.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/forwardIterator.h
 iostream
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iostream
 Node.h
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/Node.h
 iterator.h
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator.h
+
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator.h
+Node.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/Node.h
 
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/main.cpp
 iostream
@@ -69,6 +69,6 @@ iostream
 -
 List.h
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/List.h
-iterator_simple.h
-/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/iterator_simple.h
+forwardIterator.h
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/forwardIterator.h
 

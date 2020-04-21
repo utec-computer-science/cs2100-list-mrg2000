@@ -22,6 +22,16 @@ int main() {
     cout << single << endl;
     cout << single[0] << endl;
 
+    typedef forwardIterator<int> iterator_t;
+
+
+    iterator_t it = single.begin();
+    cout << *it << endl;
+
+    for(auto it=single.begin();it != single.end();++it){
+        cout << *it << " ";
+    } cout << endl;
+
 
     mrg::doubleLinkedList<int> doubleLinkedList;
     cout << "------- Double Linked List -------" << endl;
