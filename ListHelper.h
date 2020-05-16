@@ -154,6 +154,24 @@ public:
         size++;
     }
 
+    static void push_front(Node** head, Node** tail, ValueNode element, int& size){
+
+        auto * new_node = new DoubleListNode<ValueNode>(element);
+        new_node->value = element;
+        new_node->next = nullptr;
+
+        if(*head == nullptr){
+            *head = new_node;
+            *tail = new_node;
+
+        }else{
+            new_node->next = *head;
+            *head = new_node;
+
+        }
+        size++;
+    }
+
     static void pop_back(Node** head, Node** tail, int& size){
 
         if(size){
@@ -164,6 +182,8 @@ public:
             size--;
         }
     }
+
+
 
     static void pop_front(Node** head, Node** tail, int& size){
 
@@ -252,6 +272,47 @@ public:
 
             size--;
         }
+    }
+
+    static void pop_front(Node** head, Node** tail, int& size){
+
+        if (*head) {
+            auto * temp = (*head);
+            (*head) = temp->next;
+            temp->next = nullptr;
+            delete temp;
+
+        }
+        size--;
+
+    }
+
+
+    static void clear(Node** head, Node** tail, int& size){
+
+        while(size)
+            pop_front(head,tail,size);
+
+    }
+
+    static void erase(Node** head, Node** tail, ValueNode element, int& size){
+        auto * temp = (*head);
+
+        if (!element){
+            pop_front(head, tail, size);
+
+        }
+        else{
+            for (int i = 0; i < element; ++i){
+                temp = temp->next;
+            }
+            temp->prev->next = temp->next;
+            temp->next->prev = temp->prev;
+            temp = nullptr;
+            delete temp;
+        }
+
+        size --;
     }
 
 

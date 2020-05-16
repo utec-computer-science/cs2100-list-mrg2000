@@ -11,7 +11,7 @@ using namespace std;
 int main (int, char *[]){
 
 
-    typedef ForwardListNode<int> forward_node_t;
+    typedef DoubleListNode<int> forward_node_t;
     typedef List<forward_node_t> list_t;
     typedef list_t::Iterator iterator_t;
 
