@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cs2100_list_mrg2000
+# Target rules for targets named TEST___LISTAS_FINAL
 
 # Build rule for target.
-cs2100_list_mrg2000: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cs2100_list_mrg2000
-.PHONY : cs2100_list_mrg2000
+TEST___LISTAS_FINAL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TEST___LISTAS_FINAL
+.PHONY : TEST___LISTAS_FINAL
 
 # fast build rule for target.
-cs2100_list_mrg2000/fast:
-	$(MAKE) -f CMakeFiles/cs2100_list_mrg2000.dir/build.make CMakeFiles/cs2100_list_mrg2000.dir/build
-.PHONY : cs2100_list_mrg2000/fast
+TEST___LISTAS_FINAL/fast:
+	$(MAKE) -f CMakeFiles/TEST___LISTAS_FINAL.dir/build.make CMakeFiles/TEST___LISTAS_FINAL.dir/build
+.PHONY : TEST___LISTAS_FINAL/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/cs2100_list_mrg2000.dir/build.make CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/TEST___LISTAS_FINAL.dir/build.make CMakeFiles/TEST___LISTAS_FINAL.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/cs2100_list_mrg2000.dir/build.make CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/TEST___LISTAS_FINAL.dir/build.make CMakeFiles/TEST___LISTAS_FINAL.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/cs2100_list_mrg2000.dir/build.make CMakeFiles/cs2100_list_mrg2000.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/TEST___LISTAS_FINAL.dir/build.make CMakeFiles/TEST___LISTAS_FINAL.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... cs2100_list_mrg2000"
+	@echo "... TEST___LISTAS_FINAL"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

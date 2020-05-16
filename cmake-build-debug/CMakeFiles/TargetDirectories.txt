@@ -1,3 +1,3 @@
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug/CMakeFiles/cs2100_list_mrg2000.dir
+/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug/CMakeFiles/TEST___LISTAS_FINAL.dir

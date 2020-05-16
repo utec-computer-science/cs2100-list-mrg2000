@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = "/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura d
 CMAKE_BINARY_DIR = "/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/cs2100_list_mrg2000.dir
+# Target rules for target CMakeFiles/TEST___LISTAS_FINAL.dir
 
 # All Build rule for target.
-CMakeFiles/cs2100_list_mrg2000.dir/all:
-	$(MAKE) -f CMakeFiles/cs2100_list_mrg2000.dir/build.make CMakeFiles/cs2100_list_mrg2000.dir/depend
-	$(MAKE) -f CMakeFiles/cs2100_list_mrg2000.dir/build.make CMakeFiles/cs2100_list_mrg2000.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target cs2100_list_mrg2000"
-.PHONY : CMakeFiles/cs2100_list_mrg2000.dir/all
+CMakeFiles/TEST___LISTAS_FINAL.dir/all:
+	$(MAKE) -f CMakeFiles/TEST___LISTAS_FINAL.dir/build.make CMakeFiles/TEST___LISTAS_FINAL.dir/depend
+	$(MAKE) -f CMakeFiles/TEST___LISTAS_FINAL.dir/build.make CMakeFiles/TEST___LISTAS_FINAL.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target TEST___LISTAS_FINAL"
+.PHONY : CMakeFiles/TEST___LISTAS_FINAL.dir/all
 
 # Include target in all.
-all: CMakeFiles/cs2100_list_mrg2000.dir/all
+all: CMakeFiles/TEST___LISTAS_FINAL.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cs2100_list_mrg2000.dir/rule: cmake_check_build_system
+CMakeFiles/TEST___LISTAS_FINAL.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cs2100_list_mrg2000.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TEST___LISTAS_FINAL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/maorroizmangheiler/Documents/UTEC 2020-1/Estructura de Algoritmos ( Teoría )/cs2100-list-mrg2000/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/cs2100_list_mrg2000.dir/rule
+.PHONY : CMakeFiles/TEST___LISTAS_FINAL.dir/rule
 
 # Convenience name for target.
-cs2100_list_mrg2000: CMakeFiles/cs2100_list_mrg2000.dir/rule
+TEST___LISTAS_FINAL: CMakeFiles/TEST___LISTAS_FINAL.dir/rule
 
-.PHONY : cs2100_list_mrg2000
-
-# clean rule for target.
-CMakeFiles/cs2100_list_mrg2000.dir/clean:
-	$(MAKE) -f CMakeFiles/cs2100_list_mrg2000.dir/build.make CMakeFiles/cs2100_list_mrg2000.dir/clean
-.PHONY : CMakeFiles/cs2100_list_mrg2000.dir/clean
+.PHONY : TEST___LISTAS_FINAL
 
 # clean rule for target.
-clean: CMakeFiles/cs2100_list_mrg2000.dir/clean
+CMakeFiles/TEST___LISTAS_FINAL.dir/clean:
+	$(MAKE) -f CMakeFiles/TEST___LISTAS_FINAL.dir/build.make CMakeFiles/TEST___LISTAS_FINAL.dir/clean
+.PHONY : CMakeFiles/TEST___LISTAS_FINAL.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/TEST___LISTAS_FINAL.dir/clean
 
 .PHONY : clean
 

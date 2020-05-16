@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
-project(cs2100_list_mrg2000)
+project(TEST___LISTAS_FINAL)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cs2100_list_mrg2000 main.cpp List.h Node.h single.hpp double.hpp circular.hpp doubleCircular.hpp)
+add_executable(TEST___LISTAS_FINAL main.cpp List.h Node.h forwardNode.h circularNode.h doubleNode.h ListHelper.h NodeTraits.h)
